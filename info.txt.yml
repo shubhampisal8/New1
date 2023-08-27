@@ -1,0 +1,37 @@
+Step : -1 
+Download and install git 
+https://git-scm.com/download/win
+Open cmd - git --version
+
+Step:- 2
+https://github.com/signup
+remember - email , username  , password
+verify the email address
+
+Step :- 3
+open cmd
+email and user configure
+git config --global user.name "abc123"
+git config --global user.email "abc@gmail.com"
+
+Scenario 1-
+
+Create a folder 
+Open folder with visual studio code 
+Add the file 
+Add the code and save the file
+Open the terminal and run git commit
+
+git init
+git add .
+git commit -m "added"
+
+echo "# tixdo3" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Minskoleopc/tixdo3.git
+git push -u origin main
+
+echo "# Sample_js" >> README.md
