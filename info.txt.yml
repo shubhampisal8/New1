@@ -29,7 +29,7 @@ git commit -m "added"
 echo "# tixdo3" >> README.md
 git init
 git add README.md
-git commit -m "commit"
+git commit -m "1commit"
 git branch -M main
 git remote add origin https://github.com/Minskoleopc/tixdo3.git
 git push -u origin main
